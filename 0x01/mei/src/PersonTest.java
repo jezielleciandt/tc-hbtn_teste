@@ -25,6 +25,7 @@ class PersonTest {
     }
     @Test
     public void person_is_not_MEI(){
+        person.setSalary(12000f);
         Assertions.assertFalse(person.isMEI());
     }
 }
